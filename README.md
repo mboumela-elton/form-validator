@@ -4,7 +4,7 @@
 ## Installation
 #### You can install the Form Validator via npm by using the following command:
 ```cmd
-npm install form-validator-project
+npm install form-validator-library
 ```
 # Description
 ### We have three fonction in the object
@@ -16,7 +16,7 @@ npm install form-validator-project
 ### Usage for back-end api
 #### To use the Form Validator, you need to import it into your project:
 ```javascript
-const FormValidator = require('form-validator-project');
+const FormValidator = require('form-validator-library');
 ```
 #### Next, you can use it like this:
 ```javascript
@@ -36,7 +36,7 @@ npm install webpack webpack-cli --save-dev
 ```
 #### 2- In your JavaScript code, import and use the library. For example:
 ```javascript
-const FormValidator = require('form-validator-projet');
+const FormValidator = require('form-validator-library');
 // Use the library
 ```
 #### 3- Create a Webpack configuration file named webpack.config.js at the root of your project. Open webpack.config.js with a text editor and configure it to transpile and bundle your JavaScript code. Here's a basic example:
